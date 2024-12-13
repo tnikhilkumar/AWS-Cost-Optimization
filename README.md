@@ -33,7 +33,7 @@ The Python script for the Lambda function can be found in the lambda_function.py
 🖥️ Create a new AWS Lambda function in your account.
 🔗 Attach an IAM role with the necessary permissions.
 📥 Upload the lambda_function.py script to your Lambda function.
-⏰ Schedule the function using a trigger (e.g., CloudWatch Event) to run at desired intervals.
+⏰ Manually run the function after deleting the EC2 Instance and Volumes attached to it (or) Schedule the function using a trigger (e.g., CloudWatch Event) to run at desired intervals.
 
 🌈 Benefits
 💸 Cost Savings: Eliminates charges for unused EBS snapshots.
